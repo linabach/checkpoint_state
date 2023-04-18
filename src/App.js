@@ -13,7 +13,8 @@ export default class App extends Component {
     return (
       <div>
         <button className='buttstyle' onClick= {this.toggle}>show/hide</button>
-        { this.state.show && <Profile/>}
+        { this.state.show ? <Profile/>: null}
+        
       </div>
     )
   }

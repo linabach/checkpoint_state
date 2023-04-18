@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import Counter from './Counter'
 import './Profile.css'
+
 
 export default class Profile extends Component {
     constructor(props){
@@ -24,7 +26,10 @@ export default class Profile extends Component {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <Counter/>
+                </div>
             </div>
-             )
+            )
               }
                  }
