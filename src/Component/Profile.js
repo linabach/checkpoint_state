@@ -16,6 +16,7 @@ export default class Profile extends Component {
     render() {
         return (
             <div>
+            {/* Profile box */}
                 <div className="box">
                     <div className="card">
                         <div className="imgBx">
